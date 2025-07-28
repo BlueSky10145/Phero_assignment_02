@@ -19,7 +19,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 80px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .logo img {
@@ -82,10 +83,11 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 40px 80px;
+  align-items: flex-end;
   flex-wrap: wrap;
   background-color: white;
+  max-width: 1140px;
+  margin: 60px auto;
 }
 
 .hero-content {
@@ -93,7 +95,7 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 0.5em;
 }
 
@@ -125,8 +127,10 @@ body {
 /* Plant Section */
 .plants {
   text-align: center;
-  padding: 2em;
   background-color: white;
+  max-width: 1140px;
+  margin: 40px auto;
+  margin-bottom: 100px;
 }
 
 .plants h2 {
@@ -181,6 +185,8 @@ body {
   flex-wrap: wrap;
   width: 100%;
   background-color: white;
+  max-width: 1140px;
+  margin: 40px auto;
 }
 
 .lover-image {
@@ -188,7 +194,6 @@ body {
   max-width: 570px;
   width: 100%;
   flex: 1;
-  padding-left: 45px;
 }
 
 .main-image {
@@ -199,12 +204,23 @@ body {
 
 .trusted-badge {
   position: absolute;
-  top: -70px;
-  right: -50px;
+  top: -80px;
+  right: -60px;
   width: 190px;
   height: auto;
   z-index: 2;
+  animation: spin 5s linear infinite;
 }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .lover-content {
   flex: 1;
