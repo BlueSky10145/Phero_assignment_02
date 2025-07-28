@@ -174,17 +174,18 @@ body {
 /* Plant Lover Section */
 .plant-lover {
   display: flex;
+  max-width: 1140px;
+ justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  padding: 2em;
   gap: 2em;
   flex-wrap: wrap;
+  width: 100%;
   background-color: white;
 }
 
 .lover-image {
   position: relative;
-  max-width: 500px;
+  max-width: 570px;
   width: 100%;
   flex: 1;
   padding-left: 45px;
@@ -253,7 +254,8 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 2%;
-  margin-top: 2em;
+  max-width: 1140px;
+  margin: 2em auto;
   align-items: stretch;
   flex-wrap: wrap;
 }
