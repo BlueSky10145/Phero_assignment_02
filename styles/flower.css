@@ -333,7 +333,7 @@ body {
 .join {
   text-align: center;
   padding: 13em 8em;
-  background: url('images/news-letter-bg.png') no-repeat center center / cover;
+background: url('/images/news-letter-bg.png') no-repeat center center;
   color: white;
   width: 100%;
   min-height: 550px;
